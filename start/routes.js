@@ -1,4 +1,4 @@
 const Route = use("Route");
 
-Route.post("/products", "ProductController.newProduct");
+Route.post("/POST/products", "ProductController.newProduct");
 Route.get("/products", "ProductController.getAllProducts");
