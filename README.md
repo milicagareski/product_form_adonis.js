@@ -1,5 +1,15 @@
 # Adonis fullstack application
 
+## Installation
+
+Follow these steps to set up the backend locally.
+
+### 1. Clone the repository
+
+### 2. Run the command npm install
+
+### 3. Run the command adonis serve --dev for starting the server
+
 This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 
 1. Bodyparser
@@ -20,7 +30,6 @@ adonis new yardstick
 ```
 
 or manually clone the repo and then run `npm install`.
-
 
 ### Migrations
 
