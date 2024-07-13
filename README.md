@@ -8,6 +8,8 @@ Follow these steps to set up the backend locally.
 
 ### 2. Run the command npm install
 
+### 2. In file .env write your username and password for the database
+
 ### 3. Run the command adonis serve --dev for starting the server
 
 This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
