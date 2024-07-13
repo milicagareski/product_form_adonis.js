@@ -10,7 +10,7 @@ class ProductSchema extends Schema {
       table.decimal("price", 10, 2).notNullable();
       table.integer("quantity").notNullable();
       table.text("description");
-      table.timestamps();
+      table.timestamps(true, true);
     });
   }
 
