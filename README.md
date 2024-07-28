@@ -1,42 +1,59 @@
-# Adonis fullstack application
+# Product Form Backend
+
+This is the backend for the Product Form application, built using AdonisJS. It handles server-side logic, API endpoints, and manages product data using SQLite.
+
+## Overview
+
+The Product Form Backend supports the front end by providing API endpoints for managing products. It uses AdonisJS, a Node.js web framework, and SQLite for the database.
+
+## Features
+
+- **API Endpoints**: Provide CRUD operations for products.
+- **SQLite Integration**: Use SQLite for database management.
+- **AdonisJS Framework**: Utilize AdonisJS for building a robust backend.
+
+## Technologies Used
+
+- **AdonisJS**: A fully-featured web framework for Node.js.
+- **Node.js**: A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- **SQLite**: A lightweight database for storing product data.
 
 ## Installation
 
 Follow these steps to set up the backend locally.
 
-### 1. Clone the repository
+### Prerequisites
 
-### 2. Run the command npm install
+Make sure you have Node.js and npm installed.
 
-### 2. In file .env write your username and password for the database
+### Setup
 
-### 3. Run the command adonis serve --dev for starting the server
+1. **Clone the repository**:
 
-This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
+2. **Install dependencies**:
 
-1. Bodyparser
-2. Session
-3. Authentication
-4. Web security middleware
-5. CORS
-6. Edge template engine
-7. Lucid ORM
-8. Migrations and seeds
+   ```bash
+   npm install
+   ```
 
-## Setup
+3. **Configure Environment Variables**:
 
-Use the adonis command to install the blueprint
+   In the `.env` file, set your username and password for the database.
 
-```bash
-adonis new yardstick
-```
+4. **Run Migrations**:
 
-or manually clone the repo and then run `npm install`.
+   Run the following command to apply the database migrations:
 
-### Migrations
+   ```bash
+   adonis migration:run
+   ```
 
-Run the following command to run startup migrations.
+5. **Start the Development Server**:
 
-```js
-adonis migration:run
-```
+   Start the server using the following command:
+
+   ```bash
+   adonis serve --dev
+   ```
+
+6. **Open your browser** and go to [http://localhost:3333](http://localhost:3333) to access the backend.
